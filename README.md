@@ -1,4 +1,4 @@
-jeeves
+Jeeves
 ======
 
 An awesome, obedient bot.
