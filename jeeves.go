@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	token := "uaBDHFoe1ve9oNJPCKX6a350"
+	token := os.Getenv("TOKEN")
 
 	router := mux.NewRouter()
 	router.HandleFunc("/callback", CallbackHandler).
